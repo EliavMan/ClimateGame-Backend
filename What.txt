@@ -1,0 +1,34 @@
+functions:
+
+
+get_events(events_array,year, money, emissions, quality_of_life):
+    """
+    the function will return an array of new events
+    Params:
+    events_array (array): an array containing all the events that already happened,
+    in the beginning it will be empty(the initial state of the map)
+    year (int): what year is it right now
+    money (int): how much money does the player have
+    emissions(int): what is the player's emissions score
+    quality_of_life(int): the player's quality of life score
+    """
+
+
+get_leaderboard(username):
+"""
+the function will return a list of jsons containing the stats of the player, the 5 players above him, and the 5
+players beneath him.
+Json For Example:
+
+{'position': 5,
+'username': EliavBoy696969,
+'score': 5900}
+
+"""
+
+
+insert_to_leaderboard(username, score)
+
+
+
+
